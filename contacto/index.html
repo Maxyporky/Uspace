@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" type="text/css" href="css/util.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body style="background-image: linear-gradient(to bottom right, #94CCFA, #023F71);">
+	<div class="bg-contact2">
+		<div class="container-contact2">
+			<div class="wrap-contact2">
+					<form class="contact2-form validate-form" action="mail/envio.php" method="post">
+						<span class="contact2-form-title"> ¡Contacta! </span>
+							<div class="wrap-input2 validate-input">
+								<input class="input2" type="text" name="name" required>
+								<span class="focus-input2" data-placeholder="Nombre"></span>
+							</div>
+							<div class="wrap-input2 validate-input">
+								<input class="input2" type="text" name="surname" required>
+								<span class="focus-input2" data-placeholder="Apellido"></span>
+							</div>
+							<div class="wrap-input2 validate-input">
+								<input class="input2" type="email" name="mail" required>
+								<span class="focus-input2" data-placeholder="Correo electrónico"></span>
+							</div>
+							<div class="wrap-input2 validate-input">
+								<input class="input2" type="text" name="phone" required>
+								<span class="focus-input2" data-placeholder="Número telefono"></span>
+							</div>
+							<div class="wrap-input2 validate-input">
+								<input class="input2" type="text" name="subject" required>
+								<span class="focus-input2" data-placeholder="Asunto"></span>
+							</div>
+							<div class="wrap-input2 validate-input" >
+								<textarea class="input2" name="message" required></textarea>
+								<span class="focus-input2" data-placeholder="Mensaje"></span>
+							</div>
+							<div class="container-contact2-form-btn">
+								<div class="wrap-contact2-form-btn">
+									<div class="contact2-form-bgbtn"></div>
+										<button type="submit" name="submit">Enviar</button>
+									</div>
+									<br>
+									<a class="nav" href="../index.html"> Menú principal </a>
+									<a class="nav" href="../login/login.php"> Área clientes</a>
+									<a class="nav" href="../index.html"> Servicios</a>
+								</div>
+					</form>
+			</div>
+	</div>
+</div>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
